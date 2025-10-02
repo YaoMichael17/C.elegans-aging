@@ -11,7 +11,11 @@ Datasets (Raw single-cell RNA sequencing data (Day 1-15)):https://www.ncbi.nlm.n
 Datasets (Spatial Atlas of Molecular Cell Types and AAV Accessibility across the Whole Mouse Brain): https://singlecell.broadinstitute.org/single_cell/study/SCP1830/spatial-atlas-of-molecular-[…]pes-and-aav-accessibility-across-the-whole-mouse-brain
 
 Software: 
-scverse(https://scverse.org), Scanpy(https://scanpy.readthedocs.io/en/latest/), bioconductor(https://bioconductor.org/books/3.21/OSCA.intro/getting-scrna-seq-datasets.html#from-hdf5-based-formats)
+scverse(https://scverse.org), 
+
+scanpy(https://scanpy.readthedocs.io/en/latest/), 
+
+bioconductor(https://bioconductor.org/books/3.21/OSCA.intro/getting-scrna-seq-datasets.html#from-hdf5-based-formats)
 
 
 
