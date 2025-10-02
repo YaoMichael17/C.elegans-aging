@@ -19,11 +19,11 @@ bioconductor(https://bioconductor.org/books/3.21/OSCA.intro/getting-scrna-seq-da
 
 ## Proposed goals:
 
-# First goal: Visualize stress hallmark genes in the aging nervous system of C. elegans. To do this, we will use Scanpy (part of the scverse) to perform the initial loading and preprocessing of the dataset from GEO. Once we have the processed dataset, we will identify 20+ genes that are either upregulated or downregulated with aging by comparing day 1 and day 15 samples using Scanpy. Finally, we will use the Zellkonverter package to visualize the expression of these stress-related genes across the two time points.
+First goal: Visualize stress hallmark genes in the aging nervous system of C. elegans. To do this, we will use Scanpy (part of the scverse) to perform the initial loading and preprocessing of the dataset from GEO. Once we have the processed dataset, we will identify 20+ genes that are either upregulated or downregulated with aging by comparing day 1 and day 15 samples using Scanpy. Finally, we will use the Zellkonverter package to visualize the expression of these stress-related genes across the two time points.
 
-# First "strech" goal: Using the processed data from Scanpy, we will calculate the Maximum Mean Discrepancy (MMD) between young and old nervous system cells using NumPy, and visualize the results using Pandas. 
+First "strech" goal: Using the processed data from Scanpy, we will calculate the Maximum Mean Discrepancy (MMD) between young and old nervous system cells using NumPy, and visualize the results using Pandas. 
 
-# Second "strech" goal: We will perform a comparative analysis of stress hallmark genes between the C. elegans and mouse nervous systems using the two datasets we have identified.
+Second "strech" goal: We will perform a comparative analysis of stress hallmark genes between the C. elegans and mouse nervous systems using the two datasets we have identified.
 
 
 
