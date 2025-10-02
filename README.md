@@ -4,7 +4,7 @@
 
 As stress is one of the major contributing factors to aging and its related diseases, the goal of our project is to investigate changes in stress hallmarks in the nervous system of *C. elegans*. We will use single-cell RNA sequencing data from the 2023 paper by Antoine Emile Roux and Han Yuan titled "Individual cell types in *C. elegans* age differently and activate distinct cell-protective responses."  Additionally, studying stress in the *C. elegans* nervous system can serve as a bridge to understanding the mammalian nervous system and enable comparative studies between worms and mice.
 
-## Example published figure: ![Figure 5 Global aging characterization reveals difference in magnitude and transcriptional noise during aging across cell types]<img width="3404" height="2470" alt="image" src="https://github.com/user-attachments/assets/26d21109-be23-417a-b638-02fc04452740" />
+## Example published figure:[Figure 5 Global aging characterization reveals difference in magnitude and transcriptional noise during aging across cell types]<img width="3404" height="2470" alt="image" src="https://github.com/user-attachments/assets/26d21109-be23-417a-b638-02fc04452740" />
 
 
 
