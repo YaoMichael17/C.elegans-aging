@@ -6,9 +6,11 @@ As stress is one of the major contributing factors to aging and its related dise
 
 ## Example published figure: ![Figure 5 Global aging characterization reveals difference in magnitude and transcriptional noise during aging across cell types](https://www.cell.com/cms/10.1016/j.celrep.2023.112902/asset/f956eb9f-6202-418e-92fa-ae6aa96da74e/main.assets/gr5_lrg.jpg)
 
-## Datasets (Raw single-cell RNA sequencing data (Day 1-15)):https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE208154
+## Datasets:
 
-## Datasets (Spatial Atlas of Molecular Cell Types and AAV Accessibility across the Whole Mouse Brain): https://singlecell.broadinstitute.org/single_cell/study/SCP1830/spatial-atlas-of-molecular-[…]pes-and-aav-accessibility-across-the-whole-mouse-brain
+(Raw single-cell RNA sequencing data (Day 1-15)):https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE208154
+
+(Spatial Atlas of Molecular Cell Types and AAV Accessibility across the Whole Mouse Brain): [https://singlecell.broadinstitute.org/single_cell/study/SCP1830/spatial-atlas-of-molecular-[…]pes-and-aav-accessibility-across-the-whole-mouse-brain](https://singlecell.broadinstitute.org/single_cell/study/SCP1830/spatial-atlas-of-molecular-cell-types-and-aav-accessibility-across-the-whole-mouse-brain#study-download)
 
 ## Software: 
 scverse(https://scverse.org), 
