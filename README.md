@@ -17,5 +17,8 @@ scanpy(https://scanpy.readthedocs.io/en/latest/),
 
 bioconductor(https://bioconductor.org/books/3.21/OSCA.intro/getting-scrna-seq-datasets.html#from-hdf5-based-formats)
 
+Proposed goals:
+
+
 
 
