@@ -10,16 +10,18 @@ As stress is one of the major contributing factors to aging and its related dise
 
 ## Datasets:
 
-(Raw single-cell RNA sequencing data (Day 1-15)):https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE208154
+1. We will be using the data "ad_worm_aging.h5ad" from the Calico research website in the downloads section. The dataset is "single cell C.elegans aging count data". The sample describtion is 
 
-(Spatial Atlas of Molecular Cell Types and AAV Accessibility across the Whole Mouse Brain): [https://singlecell.broadinstitute.org/single_cell/study/SCP1830/spatial-atlas-of-molecular-[…]pes-and-aav-accessibility-across-the-whole-mouse-brain](https://singlecell.broadinstitute.org/single_cell/study/SCP1830/spatial-atlas-of-molecular-cell-types-and-aav-accessibility-across-the-whole-mouse-brain#study-download)
+"Data are formatted following the AnnData conventions. Low quality cells/genes has been removed following the procedures described in the manuscript. CellBender is applied for ambient RNA removal. Solo is applied for doublet removel. scVI is applied for denoising and cell representation. scVI representations are in anndata.obsm['scvi'], scVI denoised expression matrix is in anndata.layers['denoised']."
+
+
+2. (Spatial Atlas of Molecular Cell Types and AAV Accessibility across the Whole Mouse Brain): [https://singlecell.broadinstitute.org/single_cell/study/SCP1830/spatial-atlas-of-molecular-[…]pes-and-aav-accessibility-across-the-whole-mouse-brain](https://singlecell.broadinstitute.org/single_cell/study/SCP1830/spatial-atlas-of-molecular-cell-types-and-aav-accessibility-across-the-whole-mouse-brain#study-download)
 
 ## Software: 
 scverse(https://scverse.org), 
 
 scanpy(https://scanpy.readthedocs.io/en/latest/), 
 
-bioconductor(https://bioconductor.org/books/3.21/OSCA.intro/getting-scrna-seq-datasets.html#from-hdf5-based-formats)
 
 ## Proposed goals:
 
