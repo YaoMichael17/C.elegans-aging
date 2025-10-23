@@ -25,7 +25,7 @@ scanpy(https://scanpy.readthedocs.io/en/latest/),
 
 ## Proposed goals:
 
-First goal: Visualize stress hallmark genes in the aging nervous system of C. elegans. To do this, we will use Scanpy (part of the scverse) to perform the initial loading and preprocessing of the dataset from GEO. Once we have the processed dataset, we will identify 20+ genes that are either upregulated or downregulated with aging by comparing day 1 and day 15 samples using Scanpy. Finally, we will use the Zellkonverter package to visualize the expression of these stress-related genes across the two time points.
+First goal: Visualize stress hallmark genes in the aging nervous system of C. elegans. To do this, we will use Scanpy (part of the scverse) to perform the initial loading and preprocessing of the dataset from GEO. Once we have the processed dataset, we will identify 20+ genes that are either upregulated or downregulated with aging by comparing day 1 and day 15 samples using Scanpy. Finally, we will use the Zellkonverter package to visualize the expression of these stress-related genes across the two time points. From the stress genes, we expect cellular stress markers, such as oxidative stress genes (gst-4, ctl-1, ctl-2), metabolic genes, and genes in the MAPK pathway (p38alpha, p38beta, p38gamma, p38delta). We expect oxidative stress genes and MAPK pathway genes to be low during the first few days, increase at later time points, and then decrease again right before death.
 
 First "strech" goal: Using the processed data from Scanpy, we will calculate the Maximum Mean Discrepancy (MMD) between young and old nervous system cells using NumPy, and visualize the results using Pandas. 
 
