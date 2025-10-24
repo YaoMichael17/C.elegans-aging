@@ -13,7 +13,7 @@ Using Rstudio, we load in the CSV file that contains the gene expression of our 
 
 ## Project Organization
 
-Michael Yao selected the C. elegans dataset, organized the GitHub repository, and created the figure in RStudio. Anirudh Seshadri selected the mouse dataset, chose the stress genes, and extracted and sorted the data using Python code.
+Michael Yao selected the C. elegans dataset, organized the GitHub repository, and created the graph in RStudio. Anirudh Seshadri selected the mouse dataset, chose the stress genes, and extracted and sorted the data using Python code.
 
 
 ## Struggles we are encountering and questions we would like advice on 
