@@ -78,31 +78,3 @@ fil <- filtered[order(labels_kmeans),]
 heatmap(fil, Rowv=NA, Colv=NA, RowSideColors=RColorBrewer::brewer.pal(n= num_clusters,name= "Paired")[ordered_labels], ylab="Gene")
 
 
-
-#young <- graph_1 %>%
-  #filter(timepoint %in%
-         #  c("d1","d3"))
-
-#old <- graph_age %>%
- # filter(timepoint %in%
-        #   c("d11","d15"))
-
-#young_sub <- young %>% sample_n(10000)
-#old_sub   <- old %>% sample_n(10000)
-
-#x <- matrix(young_sub$expression, ncol=1)
-#y <- matrix(old_sub$expression, ncol = 1)
-
-#rbf_kernel<- rbfdot(sigma= 0.5)
-
-#Kxx <- kernelMatrix(rbf_kernel, x)
-#Kyy <- kernelMatrix(rbf_kernel, y)
-#Kxy <- kernelMatrix(rbf_kernel, x, y)
-#mmd2 <- mean(Kxx) + mean(Kyy) - 2*mean(Kxy)
-
-#ggplot(graph_age %>% filter(timepoint %in% c("d1", "d3", "d11", "d15")),
- # aes(x= expression, fill= timepoint))+
-  #geom_density(alpha = 0.5)+
- # labs(
-  #  x = "Gene Expression",
-  #  y= "density")
