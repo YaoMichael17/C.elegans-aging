@@ -7,13 +7,14 @@ library(palmerpenguins)
 library(matrixStats)
 library(ggplot2)
 
-age <- read.csv("/Users/cmdb/qb_project/expression_df.csv")
+age1 <- read.csv("/Users/cmdb/qb_project/expression_df_old.csv")
+
+colnames(age1)
+
 
 
 #To convert data from wide format so that the gene expression can be easily plotted.
-
-graph_age <- age %>%
-  
+graph_age <- age1 %>%
   pivot_longer(
     cols = -timepoint,
     names_to = "gene",
@@ -39,6 +40,16 @@ ggplot(sum, aes(x = timepoint, y= mean_expression, color = gene, group = gene))+
     x = "Timepoint",
     y= "Mean expression"
   )
+
+ggplot(sum, aes(x = timepoint, y= mean_expression, color = gene, group = gene))+
+  geom_line(size = 1) +
+  geom_point(size =1)+
+  labs(
+    title ="Changes in stress gene expression during C. elegans aging",
+    x = "Timepoint",
+    y= "Mean expression"
+  )
+
 
 
 #group by gene and expression and calculate for the mean expression.
